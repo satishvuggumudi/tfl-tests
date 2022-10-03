@@ -4,5 +4,6 @@ The test test solution which uses xUnit, Fluent Assertions, and PageObject patte
 # How to run
 Download project \
 Install specflow for Visual studio (https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowForVisualStudio2022) \
+Update 'browser types' to Chrome/ HeadlessChrome at appSettings.Json\
 Build project (Dependencies should be updated automatically)\
 Run tests directly from Visual Studio - Test explorer\
