@@ -26,10 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TFLUITests\Infrastructure.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="appSettings.Json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -37,6 +33,10 @@
 
   <ItemGroup>
     <Folder Include="Features\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
