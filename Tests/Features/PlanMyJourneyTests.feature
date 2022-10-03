@@ -47,8 +47,8 @@ Scenario:On the Journey results page, verify that a journey can be amended by us
 	Then I validate my journey results
 	When I click on edit journey button
 	And I Edit the journey location details
-	| From Location | To Location  |
-	| Farringdon    | East Croydon |
+	| From Location                           | To Location                            |
+	| Farringdon (London), Farringdon Station | Croydon (London), East Croydon Station |
 	And I click on update my journey button
 	Then I validate my journey results
 
